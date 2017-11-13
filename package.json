@@ -1,0 +1,34 @@
+{
+  "private": true,
+  "entry": {
+    "index": "./src/index.tsx"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --hot --inline --no-info"
+  },
+  "dependencies": {
+    "@types/react": "^16.0.22",
+    "@types/react-dom": "^16.0.3",
+    "@types/react-router": "^4.0.17",
+    "dva": "^2.0.4",
+    "react": "^16.1.0",
+    "react-dom": "^16.1.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-plugin-dva-hmr": "^0.4.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-runtime": "^6.26.0",
+    "css-loader": "^0.28.7",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "redbox-react": "^1.5.0",
+    "ts-loader": "^3.1.1",
+    "typescript": "^2.6.1",
+    "webpack": "^3.8.1",
+    "webpack-dev-server": "^2.9.4"
+  }
+}
