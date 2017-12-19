@@ -7,12 +7,12 @@
     "start": "webpack-dev-server --hot --inline --no-info"
   },
   "dependencies": {
-    "@types/react": "^16.0.25",
+    "@types/react": "^16.0.31",
     "@types/react-dom": "^16.0.3",
-    "@types/react-router": "^4.0.18",
+    "@types/react-router": "^4.0.19",
     "dva": "^2.1.0",
-    "react": "^16.1.1",
-    "react-dom": "^16.1.1"
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
@@ -28,7 +28,7 @@
     "redbox-react": "^1.5.0",
     "ts-loader": "^3.2.0",
     "typescript": "^2.6.2",
-    "webpack": "^3.9.1",
-    "webpack-dev-server": "^2.9.5"
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.9.7"
   }
 }
