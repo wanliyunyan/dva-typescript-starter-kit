@@ -4,16 +4,17 @@
     "index": "./src/index.tsx"
   },
   "scripts": {
-    "start": "webpack-dev-server --mode development"
+    "start": "webpack-dev-server --mode development",
+    "cnpm": "cnpm i"
   },
   "dependencies": {
     "dva": "^2.4.1",
-    "react": "^16.8.4",
-    "react-dom": "^16.8.4"
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
   },
   "devDependencies": {
-    "@types/react": "^16.8.7",
-    "@types/react-dom": "^16.8.2",
+    "@types/react": "^16.8.10",
+    "@types/react-dom": "^16.8.3",
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.5",
     "babel-plugin-dva-hmr": "^0.4.1",
@@ -24,9 +25,9 @@
     "css-loader": "^2.1.1",
     "extract-text-webpack-plugin": "^4.0.0-beta.0",
     "ts-loader": "^5.3.3",
-    "typescript": "^3.3.3333",
+    "typescript": "^3.4.1",
     "webpack": "^4.29.6",
-    "webpack-cli": "^3.2.3",
+    "webpack-cli": "^3.3.0",
     "webpack-dev-server": "^3.2.1"
   }
 }
